@@ -13,6 +13,17 @@
 
 </div>
 
+
+---
+
+<p align="center">
+  <img src="docs/architecture.png" alt="The labs, at a glance" width="100%">
+</p>
+
+### The labs, at a glance
+
+Three Foundry labs, each one built to make a vulnerability class impossible to forget. **fund-me** enforces Checks-Effects-Interactions, access control, pausing and gas packing on a crowdfunding contract. **dex-router** rebuilds an Uniswap-like AMM with `ReentrancyGuard`, `SafeERC20`, a TWAP oracle, slippage protection and an Echidna invariant proving the liquidity pool's `k` never decreases. **staking-pool** handles time-based reward distribution with an early-withdraw penalty. Every state-changing function ships with unit and fuzz tests.
+
 ---
 
 ## 🎯 What this is
