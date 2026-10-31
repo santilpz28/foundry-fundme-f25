@@ -26,6 +26,19 @@ Three Foundry labs, each one built to make a vulnerability class impossible to f
 
 ---
 
+<p align="center">
+  <img src="assets/architecture.png" alt="The labs, at a glance" width="100%">
+</p>
+
+### The labs, at a glance
+
+Three Foundry labs, each one built to make a vulnerability class impossible to forget. **fund-me** enforces Checks-Effects-Interactions, access control, pausing and gas packing on a crowdfunding contract. **dex-router** rebuilds a Uniswap-like AMM with `ReentrancyGuard`, `SafeERC20`, a TWAP oracle, slippage protection and an Echidna invariant proving the liquidity pool's `k` never decreases. **staking-pool** handles time-based reward distribution with an early-withdraw penalty. Every state-changing function ships with unit and fuzz tests.
+
+---
+
+
+---
+
 ## 🎯 What this is
 
 A collection of **self-driven Solidity security labs** completed during my **Master in Blockchain Development** (2025–2026). Each lab covers a real-world vulnerability pattern, with a Foundry test suite and (where applicable) property-based fuzzing with Echidna.
